@@ -1,0 +1,39 @@
+# Site settings
+title: Sunil Simha
+description: Sunil Simha's personal webpage
+url: https://SunilSimha.github.io
+baseurl: "" # the subpath of your site, e.g. /blog/
+
+# Build settings
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-seo-tag
+
+# Author
+author:
+  name: Sunil Simha
+  email: sunil.simha95@gmail.com
+  bio: I am a graduate student in the UCSC Astronomy and Astrophysics Department 
+  avatar: /assets/images/cropped-me.jpg
+
+# Social media links
+github_username:  SunilSimha
+
+# Navigation links
+nav_links:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Blog
+    url: /blog/
+  - title: Contact
+    url: /contact/
+
+# Jekyll settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
