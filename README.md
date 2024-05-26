@@ -1,4 +1,3 @@
-# H. S. Sunil Simha
 I am an observational astrophysicist working on Fast Radio Bursts (FRBs) as probes of ionized gas in the universe. One can probe gas density, magnetic fields, and turbulence in foreground matter through their unique burst properties. I am currently involved in the FLIMFLAM survey, an experiment to constrain the partition of matter within dark matter halos and the cosmic web filaments.
 
 When not working on astrophysics, I like to photograph (mostly birds), play chess, sketch, and hike.
