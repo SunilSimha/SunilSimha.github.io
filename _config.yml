@@ -195,7 +195,12 @@ exclude:
   - _news/announcement_*.md
   - _pages/blog.md
   - _posts/
-  - _projects/?_project.md
+  - _projects
+  - _repo
+  - _books
+  - about/projects.md
+  - about/news.md
+  - about/books.md
   - assets/jupyter/blog.ipynb
 keep_files:
   - CNAME
@@ -269,8 +274,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Simha]
+  first_name: [Sunil, S.]
 
   style: apa
   locale: en
