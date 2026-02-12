@@ -1,0 +1,340 @@
+% --- LaTeX CV Template - S. Venkatraman ---
+
+% Set document class and font size
+\documentclass[letterpaper, 11pt]{article}
+\usepackage[utf8]{inputenc}
+
+% Package imports
+\usepackage{setspace, longtable, graphicx, hyphenat, hyperref, fancyhdr, ifthen, everypage, enumitem, amsmath, setspace}
+
+% --- Page layout settings ---
+
+% Set page margins
+\usepackage[left=1in, right=1in, bottom=0.7in, top=0.7in]{geometry}
+
+% Set line spacing
+\renewcommand{\baselinestretch}{1.15}
+
+% --- Page formatting ---
+
+% Set link colors
+\usepackage[dvipsnames]{xcolor}
+\hypersetup{colorlinks=true, linkcolor=RoyalBlue, urlcolor=RoyalBlue}
+
+% Set font to Libertine, including math support
+\usepackage{libertine}
+\usepackage[libertine]{newtxmath}
+
+% Keep page numbering
+\pagenumbering{arabic}
+
+% --- Document starts here ---
+
+\begin{document}
+
+% Name and date of last update to this document
+\noindent{\Huge{Sunil Simha}
+\hfill{\it\footnotesize Updated \today}}
+
+% --- Contact information and other items ---
+
+\vspace{0.5cm} 
+\begin{center}
+\begin{tabular}{lll}
+% Line 1: Email, GitHub, office location
+\textbf{Email}: \href{mailto:sunil.simha95@gmail.com}{sunil.simha95@gmail.com}      &
+\hspace{0.35in} \textbf{GitHub}: \href{https://github.com/SunilSimha}{//SunilSimha}    &
+\hspace{0.2in} 	\textbf{Office}: ERC 553, CIERA 8023 \\
+
+% Line 2: Phone number, LinkedIn, citizenship
+\textbf{Phone}: (650) 471-2136   & 
+\hspace{0.35in} \textbf{ORCiD}: \href{https://orcid.org/0000-0003-3801-1496}{0000-0003-3801-1496}   & 
+\hspace{0.2in} \textbf{Citizenship}: India 
+\end{tabular}
+\end{center}
+
+% --- Start the two-column table storing the main content ---
+
+% Set spacing between columns
+\setlength{\tabcolsep}{8pt}
+
+% Set the width of each column
+\begin{longtable}{p{1.3in}p{4.8in}}
+
+\nohyphens{\color{OliveGreen}{Research position}}
+& \textbf{UChicago-Northwestern} \hfill Sept. 2024 onwards\\
+& \textbf{Brinson Postdoctoral Fellow}\\
+\nohyphens{\color{OliveGreen}{Research interests}}
+& Fast Radio Bursts (FRBs) as probes of the circumgalactic and intergalactic media (CGM and IGM).\\
+\hline
+&\\
+
+% --- Section: Education ---
+
+\color{OliveGreen}{Education} 
+& \textbf{University of California, Santa Cruz} \hfill Santa Cruz, California, USA \\ 
+& Ph.D. in Astronomy and Astrophysics \hfill 2018 -- June 2024 \\
+& \\
+
+& \textbf{Indian Institute of Technology Madras} \hfill Chennai, Tamil Nadu, India \\
+& BS-MS in Physics \hfill 2013 -- 2018\\
+\hline
+& \\
+
+% --- Uncomment the next few lines if you want to include some courses ---
+%& \textbf{Selected coursework}
+%\begin{itemize}[noitemsep,leftmargin=*]
+%\item \underline{Relevant subject 1}: Course 1, Course 2, Course 3, Course 4
+%\item \underline{Relevant subject 2}: Course 1, Course 2, Course 3, Course 4
+%\end{itemize} \\
+
+% --- Section: Awards, scholarships, etc. ---
+% --- Note: section title is spread over two lines ---
+
+{\color{OliveGreen}{Awards and}}
+& \textbf{JSPS pre-doctoral fellowship}\hfill 2024\\
+{\color{OliveGreen}{scholarships}}
+& Awarded \textyen 200,000, in addition to other covered expenses, to work for four months in Japan with Prof. K-G Lee on the analysis of cosmic baryons along FRB sightlines.\\ 
+& \textbf{UC Chancellor Dissertation Year Fellowship} \hfill 2023\\
+& Awarded \$9750 funding for my research in my dissertation-year.\\  
+& \textbf{Newcomb-Cleveland Prize} (\href{https://www.aaas.org/awards/newcomb-cleveland-prize/about}{AAAS}) \hfill 2021\\
+& Part of the research team which was awarded \$25000 for an \href{https://ui.adsabs.harvard.edu/link_gateway/2019Sci...365..565B/doi:10.1126/science.aaw5903}{outstanding research publication} in the \textit{Science} journal.\\ 
+& \textbf{UC Regents Grad Fellowship}\hfill2018\\
+& 1-year research fellowship for graduate students in the University of California\\
+& \textbf{S N Bose Scholarship}  (\href{https://iusstf.org/home}{IUSSTF})\hfill 2017 \\
+& \$2000 grant for Indian students to work on a Summer research project in the USA.\\
+& \textbf{Kishore Vigyan Protsahan Yojana} (\href{http://kvpy.iisc.ernet.in/main/about.htm}{DST, India})\hfill 2013-2018\\
+& INR 80,000/year for undergraduates who cleared the KVPY competitive examination and majored in pure-science fields.\\
+\hline
+&\\
+% --- Section: Research experience ---
+\nohyphens{\color{OliveGreen}{Research experience}} 
+& \textbf{The FLIMFLAM Survey} \\
+& \textit{Advisors: J. Xavier Prochaska (UCSC), Khee-Gan Lee (IPMU)} \hfill 2021 -- Present \\
+& \textit{\href{https://ui.adsabs.harvard.edu/abs/2022ApJ...928....9L/abstract}{FLIMFLAM} is a redshift survey of foreground galaxies along Fast Radio Burst (FRB) sightlines to constrain key parameters describing the distribution of ionized matter in the CGM and IGM to $\sim20$\% precision. }\\
+& Leading spectroscopic observational efforts with the Keck and Gemini telescopes for redshift estimation. Involved in imaging and spectroscopic observation, data reduction, redshift and mass estimation. Also involved in the subsequent matter density map reconstruction and bayesian inference of the parameters describing matter distribution in the universe. \\
+& \textbf{Optical follow-up of localized FRBs} \\
+& \textit{Advisor: J. Xavier Prochaska} \hfill 2018 -- Present \\
+& Current member of the \href{https://sites.google.com/ucolick.org/f-4/home?read_current=1}{$F^4$ team}. Involved in planning, execution and data reduction of observations of localized FRBs (obtained through the CRAFT, MeerTRAP, REALFAST, and DSA collaborations)  with optical telescopes such as Keck, Gemini, SOAR. Utilized the observations, which included imaging and spectroscopy, to identify FRB host galaxies and characterize them as well as study foreground matter along FRB sightlines.\\
+& \textbf{Keck Visiting Scholar} \\
+& \textit{Advisors: Percy Gomez (Keck), Sherry Yeh (Keck)} \hfill May-July 2022 \\
+& Characterized the gratings and detector subsystems of the Low-Resolution Imaging Spectrograph (LRIS) on the Keck telescope. Produced spectroscopic throughput measurements for three gratings and automated the monthly checkout procedure for LRIS.\\
+&\\
+& \textbf{LRIS red-side detector upgrade} \\
+& \textit{Advisor: Constance Rockosi (UCSC)} \hfill 2020-2021 \\
+& Involved in the testing and commissioning of the optical charged-coupled device (CCD) upgrade to LRIS on the Keck telescope. Characterized the CCD response through measurements of readout noise, gain and linearity. \\
+&\\
+& \textbf{Mg II absorber clustering} \\
+& \textit{Advisors: Raghunathan Srianand (IUCAA), L. Sriram Kumar (IITM)} \hfill 2017-2018 \\
+& Studied the clustering and distribution of metal absorption lines,
+specifically of the Mg II doublet (2796-2802 $\AA$) in quasar spectra and investigated the masses of foreground halos likely contributing to the absorption features.\\
+\hline
+&\\
+% --- Section: Publications ---
+\nohyphens{\color{OliveGreen}{Publications}} & \href{https://ui.adsabs.harvard.edu/search/q=((%20author%3A%22simha%2C%20sunil%22)%20AND%20year%3A2018-)&sort=date%20desc%2C%20bibcode%20desc&p_=0}{ADS Link to the full list}\\
+\textbf{First author} & \textbf{Searching for the sources of excess extragalactic dispersion of FRBs
+} \\ & S. Simha, K.-G. Lee, J. X. Prochaska, et al., \textit{ApJ, 2023, 954, 1, 71}, \href{https://ui.adsabs.harvard.edu/link_gateway/2023ApJ...954...71S/doi:10.3847/1538-4357/ace324}{doi:10.3847/1538-4357/ace324}\\
+
+& \textbf{Estimating the Contribution of Foreground Halos to the FRB 180924 Dispersion Measure} \\
+& Sunil Simha, Nicolas Tejos, J. Xavier Prochaska, et al., \textit{ApJ, 2021, 921, 124}, \href{https://ui.adsabs.harvard.edu/link_gateway/2021ApJ...921..134S/doi:10.3847/1538-4357/ac2000}{doi:10.3847/1538-4357/ac2000}\\
+
+& \textbf{Disentangling the Cosmic Web toward FRB 190608} \\
+& Sunil Simha, Joseph Burchett, J. Xavier Prochaska, et al., \textit{ApJ, 2020, 901, 134}, \href{https://ui.adsabs.harvard.edu/link_gateway/2020ApJ...901..134S/doi:10.3847/1538-4357/abafc3}{doi:10.3847/1538-4357/abafc3}\\
+
+
+\textbf{Significant contribution} & \textbf{Stellar Mass–Dispersion Measure Correlations Constrain Baryonic Feedback in Fast Radio Burst Host Galaxies}\\
+& C. Leung, S. Simha, I. Medlock, et al., \textit{ApJL, 991, 1, 25} \href{https://ui.adsabs.harvard.edu/link_gateway/2025ApJ...991L..25L/doi:10.3847/2041-8213/ae044d}{doi:10.3847/2041-8213/ae044d}\\
+
+& \textbf{Constraining Baryon Fractions in Galaxy Groups and Clusters with the First CHIME/FRB Outrigger}\\
+& A. E. Lanman, S. Simha, K. W. Masui, et al., \textit{submitted to ApJ} \href{https://ui.adsabs.harvard.edu/link_gateway/2025arXiv250907097L/doi:10.48550/arXiv.2509.07097}{doi:10.48550/arXiv.2509.07097}\\
+
+& \textbf{Investigating the sightline of a highly scattered FRB through a filamentary structure in the local Universe}\\
+& K. Shin, C. Leung, S. Simha, et al., \textit{ApJ, 2025, 993, 2, 208} \href{https://ui.adsabs.harvard.edu/link_gateway/2025ApJ...993..208S/doi:10.3847/1538-4357/ae093b}{doi:10.3847/1538-4357/ae093b}\\
+
+& \textbf{FRB 20250316A: A Brilliant and Nearby One-Off Fast Radio Burst Localized to 13 parsec Precision }\\
+& CHIME/FRB Collaboration, \textit{including, S. Simha} \textit{ApJL, 989, 2, 48} \href{https://ui.adsabs.harvard.edu/link_gateway/2025ApJ...989L..48C/doi:10.3847/2041-8213/adf62f}{doi:10.3847/2041-8213/adf62f}\\
+
+& \textbf{Discovery and Localization of the Swift-Observed FRB 20241228A in a Star-forming Host Galaxy}\\
+& A. Curtin, S. Andrew, S. Simha, et al., \textit{Submitted to ApJ} \href{https://ui.adsabs.harvard.edu/link_gateway/2025arXiv250610961C/doi:10.48550/arXiv.2506.10961}{doi:10.48550/arXiv.2506.10961}\\
+
+& \textbf{FRB Line-of-sight Ionization Measurement from Lightcone AAOmega Mapping Survey: The First Data Release}\\
+& Y. Huang, S. Simha, I. Khrykin, et al., \textit{ApJ, 2025, 277, 2, 64} \href{https://ui.adsabs.harvard.edu/link_gateway/2025ApJS..277...64H/doi:10.3847/1538-4365/adbc7f}{doi:10.3847/1538-4365/adbc7f}\\
+
+& \textbf{A Fast Radio Burst in a Compact Galaxy Group at $z\sim1$}\\
+& A. C. Gordon, W-F Fong, S. Simha, et al., \textit{ApJ, 2024, 963, 2, L34} \href{https://ui.adsabs.harvard.edu/link_gateway/2024ApJ...963L..34G/doi:10.3847/2041-8213/ad2773}{doi:10.3847/2041-8213/ad2773}\\
+
+
+& \textbf{The FRB 20190520B Sight Line Intersects Foreground Galaxy Clusters}\\
+& K.G. Lee, I. Khrykin, S. Simha et al., \textit{ApJL, 2023, 54, 1, L7} \href{https://ui.adsabs.harvard.edu/link_gateway/2023ApJ...954L...7L/doi:10.3847/2041-8213/acefb5}{doi:10.3847/2041-8213/acefb5}\\
+
+& \textbf{Dissecting the Local Environment of FRB 190608 in the Spiral Arm of its Host Galaxy } \\
+
+& Jay Chittidi, Sunil Simha, Alexandra Mannings, et al.,  \textit{ApJ, 2021, 922, 173}, \href{https://ui.adsabs.harvard.edu/link_gateway/2021ApJ...922..173C/doi:10.3847/1538-4357/ac2818}{doi:10.3847/1538-4357/ac2818} \\
+
+& \textbf{A High-resolution View of Fast Radio Burst Host Environments } \\
+& Alexandra Mannings, Wen-Fai Fong, Sunil Simha, et al., \textit{ApJ, 2021, 917, 75}, \href{https://ui.adsabs.harvard.edu/link_gateway/2021ApJ...917...75M/doi:10.3847/1538-4357/abff56}{doi:10.3847/1538-4357/abff56} \\
+
+& \textbf{Host Galaxy Properties and Offset Distributions of Fast Radio Bursts: Implications for Their Progenitors } \\
+& Kasper Heintz, J Xavier Prochaska, Sunil Simha, et al., \textit{ApJ, 2020, 903, 152}, \href{https://ui.adsabs.harvard.edu/link_gateway/2020ApJ...903..152H/doi:10.3847/1538-4357/abb6fb}{doi:10.3847/1538-4357/abb6fb}\\
+
+\textbf{Minor contribution} & \textbf{Localisation and host galaxy identification of new Fast Radio Bursts with MeerKAT}\\
+& I. Pastor-Marazuela et al, \textit{including S. Simha}, \textit{MNRAS}, 2025, 538, 3, \href{https://ui.adsabs.harvard.edu/link_gateway/2025MNRAS.tmp.2025P/doi:10.1093/mnras/staf2144}{doi:10.1093/mnras/staf2144}\\
+
+
+& \textbf{James Webb Space Telescope Observations of the Nearby and Precisely-Localized FRB 20250316A: A Potential Near-IR Counterpart and Implications for the Progenitors of Fast Radio Bursts}\\
+& P. Blanchard et al, \textit{including S. Simha}, \textit{ApJL,  2025, 989, 2, 49}, \href{https://ui.adsabs.harvard.edu/link_gateway/2025ApJ...989L..49B/doi:10.3847/2041-8213/adf29f}{doi:10.3847/2041-8213/adf29f}\\
+
+& \textbf{Mapping the Spatial Distribution of Fast Radio Bursts within their Host Galaxies}\\
+& A. Gordon et al, \textit{including S. Simha}, \textit{ApJ, 2025, 993, 1, 119}, \href{https://ui.adsabs.harvard.edu/link_gateway/2025ApJ...993..119G/doi:10.3847/1538-4357/ae0298}{doi:10.3847/1538-4357/ae0298}\\
+
+& \textbf{JWST and Ground-based Observations of the Type Iax Supernovae SN 2024pxl and SN 2024vjm: Evidence for Weak Deflagration Explosions }\\
+& L. Kwok et al, \textit{including S. Simha}, \textit{ApJL, 2025, 989, 2, 33} \href{https://ui.adsabs.harvard.edu/link_gateway/2025ApJ...989L..33K/doi:10.3847/2041-8213/adf062}{doi:10.3847/2041-8213/adf062}\\
+
+& \textbf{Photometry and Spectroscopy of SN 2024pxl: A Luminosity Link Among Type Iax Supernovae }\\
+& M. Singh et al, \textit{including S. Simha}, \textit{submitted to ApJ}, 2025, \href{https://ui.adsabs.harvard.edu/link_gateway/2025arXiv250502943S/doi:10.48550/arXiv.2505.02943}{doi:10.1088/1538-3873/adc48a}\\
+
+& \textbf{Tilsotua: Reproducing Slitmask Sky Positions for use with the LRIS Multislit Archive }\\
+& J. Sullivan et al, \textit{including S. Simha}, \textit{PASP, 137, 5, 054505}, 2025, \href{https://ui.adsabs.harvard.edu/link_gateway/2025PASP..137e4505S/doi:10.1088/1538-3873/adc48a}{doi:10.1088/1538-3873/adc48a}\\
+
+
+& \textbf{A Catalog of Local Universe Fast Radio Bursts from CHIME/FRB and the KKO Outrigger}\\
+& CHIME Collaboration, \textit{including S. Simha}, \textit{ApJS, 2025, 280, 1, 6}, \href{https://ui.adsabs.harvard.edu/link_gateway/2025ApJS..280....6C/doi:10.3847/1538-4365/addbda}{doi:10.3847/1538-4365/addbda}\\
+& \textbf{The CRAFT coherent (CRACO) upgrade I: System description and results of the 110-ms radio transient pilot survey}\\
+& Z. Wang, K. W. Bannister, V. Gupta et al., \textit{including S. Simha}, \textit{PASA, 2025, 42}, \href{https://ui.adsabs.harvard.edu/link_gateway/2025PASA...42....5W/doi:10.1017/pasa.2024.107}{doi:10.1017/pasa.2024.107}\\
+
+& \textbf{The Massive and Quiescent Elliptical Host Galaxy of the Repeating Fast Radio Burst FRB20240209A} \\
+& T. Eftekhari, Y. Dong, W. Fong, et al. \textit{including S. Simha}, \textit{ApJ,  2025, 979, 2}, \href{https://ui.adsabs.harvard.edu/link_gateway/2025ApJ...979L..22E/doi:10.3847/2041-8213/ad9de2}{doi:10.3847/2041-8213/ad9de2}\\
+
+& \textbf{Modeling the Cosmic Dispersion Measure in the $D < 120$ Mpc Local Universe} \\
+& Y. Huang, K.-G. Lee, N. I. Libekind, et al. \textit{including S. Simha}, \textit{MNRAS, 2025, 538, 4} \href{https://ui.adsabs.harvard.edu/link_gateway/2025MNRAS.538.2785H/doi:10.1093/mnras/staf417}{doi:10.1093/mnras/staf417}\\
+
+& \textbf{FLIMFLAM DR1: The First Constraints on the Cosmic Baryon Distribution from 8 FRB sightlines} \\
+& I. Khrykin, M. Ata, K.-G. Lee, et al. \textit{including S. Simha}, \textit{ApJ, 2024 973, 2, 151}, \href{https://ui.adsabs.harvard.edu/link_gateway/2024ApJ...973..151K/doi:10.3847/1538-4357/ad6567}{doi:10.3847/1538-4357/ad6567}\\
+
+& \textbf{A subarcsec localized fast radio burst with a significant host galaxy dispersion measure contribution } \\
+& M. Caleb , L. N. Driessen, A. C. Gordon, et al. \textit{including S. Simha}, \textit{MNRAS, 2023., 524, 2}, \href{https://ui.adsabs.harvard.edu/link_gateway/2023MNRAS.524.2064C/doi:10.1093/mnras/stad1839}{doi:10.1093/mnras/stad1839}\\
+
+& \textbf{The Demographics, Stellar Populations, and Star Formation Histories of Fast Radio Burst Host Galaxies: Implications for the Progenitors} \\
+& A. C. Gordon, W. F. Fong, C. D. Kilpatrick, et al. \textit{including S. Simha}, \textit{ApJ, 2023, 954, 1, 80}, \href{https://ui.adsabs.harvard.edu/link_gateway/2023ApJ...954...80G/doi:10.3847/1538-4357/ace5aa}{doi:10.3847/1538-4357/ace5aa}\\
+& \textbf{Fast Radio Bursts as Probes of Magnetic Fields in Galaxies at $z < 0.5$ } \\
+&  A. G. Mannings, R. Pakmor, J. X. Prochaska, et al. \textit{including S. Simha}, \textit{ApJ, 2023, 954, 2, 179}, \href{https://ui.adsabs.harvard.edu/link_gateway/2023ApJ...954..179M/doi:10.3847/1538-4357/ace7bb}{doi:10.3847/1538-4357/ace7bb}\\
+& \textbf{A non-repeating fast radio burst in a dwarf host galaxy} \\
+& S. Bhandari, A. C. Gordon, D. R. Scott, et al. \textit{including S. Simha}, \textit{ApJ, 2023, 948, 1, 67}, \href{https://ui.adsabs.harvard.edu/link_gateway/2023ApJ...948...67B/doi:10.3847/1538-4357/acc178}{doi:10.3847/1538-4357/acc178}\\
+
+& \textbf{A luminous fast radio burst that probes the Universe at redshift 1 } \\
+&  S. D. Ryder, K. W. Bannister, S. Bhandari, et al. \textit{including S. Simha}, \textit{Science, 2023.  382, 6668}, \href{https://ui.adsabs.harvard.edu/link_gateway/2023Sci...382..294R/doi:10.1126/science.adf2678}{doi:10.1126/science.adf2678}\\
+
+& \textbf{A Deep and Wide Twilight Survey for Asteroids Interior to Earth and Venus } \\
+&  S. S. Sheppard, D. J. Tholen, P. Pokorny, et al. \textit{including S. Simha}, \textit{AJ, 2022, 164, 168}, \href{https://ui.adsabs.harvard.edu/link_gateway/2022AJ....164..168S/doi:10.3847/1538-3881/ac8cff}{doi:10.3847/1538-3881/ac8cff}\\
+
+& \textbf{Innovations and advances in instrumentation at the W. M. Keck Observatory, vol. II} \\
+&  M. F. Kassis, S. Allen, C. Alvarez, et al. \textit{including S. Simha}, \textit{SPIE, 2022, 12184, 05}, \href{https://ui.adsabs.harvard.edu/link_gateway/2022SPIE12184E..05K/doi:10.1117/12.2628630}{doi:10.1117/12.2628630}\\
+
+& \textbf{A Distant Fast Radio Burst Associated with Its Host Galaxy by the Very Large Array} \\
+& C. J. Law, B. J. Butler, J. X. Prochaska, et al. \textit{including S. Simha}, \textit{ApJ, 2020, 899, 161}, \href{https://ui.adsabs.harvard.edu/link_gateway/2020ApJ...899..161L/doi:10.3847/1538-4357/aba4ac}{doi:10.3847/1538-4357/aba4ac}\\
+
+& \textbf{The low density and magnetization of a massive galaxy halo exposed by a fast radio burst } \\
+& J.X. Prochaska, J.P. Macquart, M. Mcquinn, et al. \textit{including Sunil Simha}, \textit{Science, 2019, 366, 231}, \href{https://ui.adsabs.harvard.edu/link_gateway/2019Sci...366..231P/doi:10.1126/science.aay0073}{doi:10.1126/science.aay0073}\\
+
+& \textbf{A single fast radio burst localized to a massive galaxy at cosmological distance} \\
+& Keith Bannister, Adam T. Deller, J., et al. \textit{including Sunil Simha}, \textit{Science, 2019, 365, 565}, \href{https://ui.adsabs.harvard.edu/link_gateway/2019Sci...365..565B/doi:10.1126/science.aaw5903}{doi:10.1126/science.aaw5903}\\
+\hline
+&\\
+% --- Section: Teaching experience ---
+{\color{OliveGreen}{Teaching experience}}
+& \textbf{FTSky Pedagogical session} \hfill Oct 2025 \\
+& Co-taught aspects of optical analysis of FRB host galaxies to the conference participants of the FTSky workshop conducted at ICTS, India\\
+& Responsibilities: designed code tutorials via Jupyter/Python on optical spectroscopic data reduction, modeling the light of galaxies in imaging and accessing photometric data from public catalog.\\
+& \textbf{Cal-Bridge student tutor} \hfill Summer 2022\\
+& Phys 440: Computational Physics (SFSU)\\
+& Tutored a \href{https://calbridge.smapply.org/}{Cal-Bridge} student in numerical methods. Helped tackle assignments on solving 2D partial differential equations via grid-based algorithms.\\
+
+& \textbf{Teaching assistant, Department of Astronomy (UCSC)} \hfill Winter 2022 \\
+& ASTR 112: Physics of Stars\\
+& Instructor: Ryan Foley\\
+& Covered the physical processes that stars undergo from their formation to death. Included the hydrostatic equilibrium of stars, nuclear fusion, stellar evolution on the HR diagram, stellar remnants and using the Gaia public archive of observational data.\\
+& Responsibilities: helped design and grade assignments and examinations, conduct office-hours (twice per week) to aid student learning and taught a session on accessing the analyzing data from the Gaia data archive.\\
+& \textbf{Cal-Bridge student tutor} \hfill Summer 2022\\
+& Phys 440: Computational Physics (SFSU)\\
+& Tutored a \href{https://calbridge.smapply.org/}{Cal-Bridge} student in numerical methods. Helped tackle assignments on solving 2D partial differential equations via grid-based algorithms.\\
+
+& \textbf{Teaching assistant, Department of Astronomy (UCSC)} \hfill Fall 2019 \\
+& ASTR 119: Introduction to Scientific Computing \\
+& Instructor: Asher Wasserman\\
+& The course covered scientific computation methods via Python. Included basic data structures in Python, array-manipulation, numerical root-finding, curve-fitting and integration schemes.\\
+& Responsibilities: helped design and grade assignments and examinations, conduct office-hours (twice per week) to aid student learning. Office-hours included a weekly ``Python basics'' tutorial for first-time coders.\\
+\hline
+& \\
+% --- Section: Talks and tutorials ---
+{\color{OliveGreen}{Conference}} & \href{https://www.youtube.com/watch?v=x6uZFBR_l-s}{\textbf{FTSky (conference)}}, ICTS \textit{(invited talk)} \hfill Oct 2025\\
+{\color{OliveGreen}{presentations}} & \href{https://www.youtube.com/watch?v=GKMQ7f54tpg}{\textbf{FTSky (pedagogy session)}}, ICTS \textit{(invited talk)} \hfill Oct 2025\\
+& \href{https://www.youtube.com/live/EitJleKFXxE?feature=shared&t=6828}{\textbf{FRB 2025}}, McGill University (\textit{invited talk}) \hfill Jul 2025 \\
+& \textbf{Falcon Workshop}, University of Chicago (\textit{talk}) \hfill Mar 2025 \\
+& \textbf{Baryons Beyond Galactic Boundaries}, Pune, India (\textit{poster}) \hfill Dec 2024 \\
+& \textbf{FRB 2024}, Khao Lak, Thailand (\textit{talk}) \hfill Nov 2024 \\
+& \textbf{Baryons in the Universe 2024}, Kavli IPMU (\textit{talk}) \hfill Apr 2024 \\
+& \textbf{Oases in the Cosmic Desert}, Arizona State University (\textit{poster}) \hfill Feb 2023 \\
+& \textbf{Cosmic Web 2023}, UC Santa Barbara, (\textit{poster}) \hfill Feb 2023 \\
+& \textbf{Santa Cruz Galaxy Formation Workshop}, UC Santa Cruz (\textit{talk}) \hfill Aug 2022 \\
+& \textbf{IAU General Assembly S369}, Busan, Korea (\textit{talk}) \hfill Aug 2022 \\
+& \href{https://www.youtube.com/watch?v=qIqtrDZBHes&list=PLOydScKsZ5XEbrYIpDETtDEaCPTJkm1EK&index=19}{\textbf{Keck Science Meeting}}, CalTech. (\textit{talk}) \hfill Aug 2022 \\
+& \href{https://www.youtube.com/watch?v=EM-5nxv6BSU&list=PLOydScKsZ5XHWcd6q7-LTfBboPUh3SQz_&index=13}{\textbf{Keck Science Meeting}}, UC San Diego (\textit{talk}) \hfill Sep 2021 \\
+& \textbf{Keck Science Meeting}, Virtual meeting (\textit{poster}) \hfill Sep 2020 \\
+% Other talks
+{\color{OliveGreen}{Other Talks}}
+ & \textbf{Monday Astronomy Tea Seminar}, MIT \hfill May 2025 \\
+ & \textbf{Astronomy Lunch Talk}, UC Los Angeles \hfill Oct 2023 \\
+ & \textbf{Astronomy Seminar}, UC Irvine \hfill Oct 2023 \\
+ & \textbf{Cosmology Seminar}, UC Berkeley \hfill Mar 2023 \\
+ & \textbf{Colloquium}, Pontifica Universidad de Chile, Valpara\'iso \hfill Aug 2022 \\
+ & \textbf{Public talk}, San Fransisco Amateur Astronomers \hfill Jan 2021\\
+ & \href{https://www.youtube.com/watch?v=1MLDxRQZlzA}{\textbf{Astronomy on Tap}}, Santa Cruz \hfill Nov 2020 \\
+ & \textbf{Science on Tap}, Santa Cruz \hfill Jul 2020\\
+ \hline
+ &\\
+ 
+% --- Section: Various skills (programming, software, languages, etc.) ---
+{\color{OliveGreen}{Skills}} 
+& \textbf{Observational astronomy tools}\\
+& \href{https://pypeit.readthedocs.io/en/release/}{PypeIt} (developer), \href{https://sextractor.readthedocs.io/en/latest/}{SExtractor} (advanced), \href{https://users.obs.carnegiescience.edu/peng/work/galfit/galfit.html}{Galfit} (advanced), \href{https://cigale.lam.fr/}{CIGALE} (advanced), \href{https://sites.google.com/cfa.harvard.edu/saoimageds9/about?authuser=0}{ds9} (advanced), Slitmask designing software (advanced): \href{https://www2.keck.hawaii.edu/inst/lris/autoslit_WMKO.html}{AutoSlit}, \href{https://www2.keck.hawaii.edu/inst/deimos/dsim.html}{DSimulator}, \href{https://gmmps-documentation.readthedocs.io/en/latest/}{GMMPS}, \href{https://www2.keck.hawaii.edu/inst/mosfire/magma.html}{MAGMA}.\\
+& \textbf{Programming languages and tools}\\
+& Python (advanced), Git (advanced), Bash (familiar), Pyraf/IRAF (familiar), C (familiar)\\
+
+& \textbf{Languages} \\
+& English (advanced), Hindi (advanced), Kannada (fluent), Spanish (beginner), Japanese (beginner) \\
+\hline
+& \\
+
+% --- Section: Service and outreach ---
+\newpage
+\color{OliveGreen}{Mentorship \&}
+& \textbf{CIERA Summer Internship} \hfill Summer 2025\\
+\color{OliveGreen}{service roles} & Mentoring Shelah Boyd (Spelman College, Atlanta) on investigating star-galaxy separation methods in public imaging surveys. Ms. Boyd is working towards comparing star-galaxy classification methods across imaging surveys such as Pan-STARRS and the Legacy Survey, and quantifying the false positive rate against deeper imaging surveys such as the HSC survey. Her findings will improve FRB host identification for the CHIME/FRB collaboration.\\
+& \textbf{\href{https://sip.ucsc.edu/}{SIP}} \hfill Summer 2023\\
+& Mentored three high school students (12th grade) in India on a research project about using an FRB to probe the galaxy group environment of the M83-CenA cluster. The students were able to successfully reduce GMOS multi-object spectroscopic data and estimate redshifts using MARZ.\\
+& \textbf{Grad admissions committee} \hfill Fall 2021- Winter 2022 \\
+ & Served on the graduate student admissions committee in the department of Astronomy at UCSC. Reviewed roughly 400 applications in the committee and was involved in interviewing the candidates selected in the first round.\\
+& \textbf{\href{https://lamat.science.ucsc.edu/}{LAMAT}} \hfill Summer 2023 \\
+ & Co-mentored Ayanah Cason (post-bacclaureate) on her investigation of metal absorption systems at high redshifts. Advised Ms. Cason on structuring her publication (in-progress) and contextualizing it in the broader framework of galaxy feedback and high redshift quasar absorption observations.\\
+& \textbf{LAMAT} \hfill Summer 2021 \\
+ & Co-mentored Jason Barrios (UC Santa Barbara) on his investigation of probing galaxy feedback with FRBs. His findings are currently being drafted for publication in the Astrophysical Journal.\\
+ \hline
+& \\
+
+% --- Section: Professional society memberships ---
+% --- Note: section title is spread over two lines ---
+
+% {\color{OliveGreen}{Professional}} 
+% & {\textbf{Name of professional society.}} \hfill Month Year -- Present \\
+% {\color{OliveGreen}{memberships}} 
+% & Some things you did or conferences you attended. Aliquam volutpat est vel massa. Sed dolor lacus, imperdiet non, ornare non, commodo eu, neque. \\
+% & \\
+
+% --- Section: Other interests/hobbies ---
+
+\nohyphens{\color{OliveGreen}{Hobbies}} & Chess, Digital Art, Pencil Sketching, Photography\\
+
+% --- End of CV! ---
+
+\end{longtable}
+\end{document}
