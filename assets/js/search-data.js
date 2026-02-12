@@ -23,12 +23,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/awards/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
+        },{id: "nav-research",
+          title: "research",
+          description: "Research projects and experience",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
+          },
+        },{id: "nav-cv",
+          title: "cv",
+          description: "Full curriculum vitae of Sunil Simha, postdoctoral researcher at UChicago-Northwestern CIERA. Download the PDF or view the full CV below.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
           },
         },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
       
