@@ -1,97 +1,305 @@
-- title: General Information
+- title: Basics
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Sunil Simha
+    - name: Email
+      value: sunil.simha95@gmail.com
+    - name: GitHub
+      value: SunilSimha
+      links:
+        - name: GitHub
+          link: https://github.com/SunilSimha
+    - name: ORCiD
+      value: 0000-0003-3801-1496
+      links:
+        - name: ORCiD Profile
+          link: https://orcid.org/0000-0003-3801-1496
+    - name: Office
+      value: ERC 553, CIERA 8023 (UChicago-Northwestern)
+    - name: Citizenship
+      value: India
+
+- title: Research Position
+  type: time_table
+  contents:
+    - year: Sept. 2024 – Present
+      title: Brinson Postdoctoral Fellow
+      institution: University of Chicago & Northwestern University
+      maindescription: "Fast Radio Bursts as probes of the circumgalactic and intergalactic media (CGM and IGM)."
+
+- title: Research Interests
+  type: list
+  contents:
+    - Fast Radio Bursts (FRBs) as probes of the circumgalactic and intergalactic media
+    - Matter density distribution in the universe
+    - Galaxy evolution and feedback
+    - Observational cosmology
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - year: 2018 – June 2024
+      title: Ph.D. in Astronomy and Astrophysics
+      institution: University of California, Santa Cruz
+      location: Santa Cruz, California, USA
+    - year: 2013 – 2018
+      title: BS-MS in Physics
+      institution: Indian Institute of Technology Madras
+      location: Chennai, Tamil Nadu, India
 
-- title: Experience
+- title: Awards and Scholarships
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - year: 2024
+      title: JSPS Pre-doctoral Fellowship
+      maindescription: "Awarded ¥200,000 in addition to other covered expenses to work for four months in Japan with Prof. K-G Lee on the analysis of cosmic baryons along FRB sightlines."
+    - year: 2023
+      title: UC Chancellor Dissertation Year Fellowship
+      maindescription: "Awarded $9,750 funding for research in dissertation-year."
+    - year: 2021
+      title: Newcomb-Cleveland Prize (AAAS)
+      maindescription: "Part of research team awarded $25,000 for outstanding research publication in Science journal. doi:10.1126/science.aaw5903"
+    - year: 2018
+      title: UC Regents Graduate Fellowship
+      maindescription: "1-year research fellowship for graduate students in the University of California system."
+    - year: 2017
+      title: S N Bose Scholarship (IUSSTF)
+      maindescription: "$2,000 grant for Indian students to work on summer research projects in the USA."
+    - year: 2013 – 2018
+      title: Kishore Vigyan Protsahan Yojana (KVPY) Scholarship
+      maindescription: "INR 80,000/year for undergraduates who cleared the KVPY competitive examination and majored in pure-science fields."
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Research Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - year: 2021 – Present
+      title: The FLIMFLAM Survey
+      department: "Advisors: J. Xavier Prochaska (UCSC), Khee-Gan Lee (IPMU)"
+      maindescription: "FLIMFLAM is a redshift survey of foreground galaxies along Fast Radio Burst (FRB) sightlines to constrain key parameters describing the distribution of ionized matter in the CGM and IGM to ~20% precision."
+      description:
+        - "Leading spectroscopic observational efforts with the Keck and Gemini telescopes for redshift estimation"
+        - "Involved in imaging and spectroscopic observation, data reduction, redshift and mass estimation"
+        - "Matter density map reconstruction and Bayesian inference of parameters describing matter distribution in the universe"
+    - year: 2018 – Present
+      title: Optical Follow-up of Localized FRBs
+      department: "Advisor: J. Xavier Prochaska"
+      maindescription: "Current member of the F⁴ team. Involved in planning, execution and data reduction of observations of localized FRBs."
+      description:
+        - "Work with CRAFT, MeerTRAP, REALFAST, and DSA collaborations"
+        - "Use optical telescopes: Keck, Gemini, SOAR"
+        - "FRB host galaxy identification and characterization"
+        - "Study foreground matter along FRB sightlines"
+    - year: May – July 2022
+      title: Keck Visiting Scholar
+      department: "Advisors: Percy Gomez (Keck), Sherry Yeh (Keck)"
+      maindescription: "Characterized the gratings and detector subsystems of the Low-Resolution Imaging Spectrograph (LRIS) on the Keck telescope."
+      description:
+        - "Produced spectroscopic throughput measurements for three gratings"
+        - "Automated the monthly checkout procedure for LRIS"
+    - year: 2020 – 2021
+      title: LRIS Red-side Detector Upgrade
+      department: "Advisor: Constance Rockosi (UCSC)"
+      maindescription: "Involved in testing and commissioning of the optical CCD upgrade to LRIS on the Keck telescope."
+      description:
+        - "Characterized CCD response through measurements of readout noise, gain and linearity"
+    - year: 2017 – 2018
+      title: "Mg II Absorber Clustering"
+      department: "Advisors: Raghunathan Srianand (IUCAA), L. Sriram Kumar (IITM)"
+      maindescription: "Studied the clustering and distribution of metal absorption lines, specifically the Mg II doublet in quasar spectra."
+      description:
+        - "Investigated masses of foreground halos contributing to absorption features"
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Publications
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "See full publication list at: https://ui.adsabs.harvard.edu/search/q=((%20author%3A%22simha%2C%20sunil%22)%20AND%20year%3A2018-)&sort=date%20desc%2C%20bibcode%20desc&p_=0"
+
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - year: Oct 2025
+      title: FTSky Pedagogical Session
+      maindescription: "Co-taught aspects of optical analysis of FRB host galaxies to conference participants at ICTS, India."
+      description:
+        - "Designed code tutorials via Jupyter/Python on optical spectroscopic data reduction"
+        - "Modeling galaxy light in imaging and accessing photometric data from public catalogs"
+    - year: Summer 2022
+      title: Cal-Bridge Student Tutor
+      institution: San Francisco State University
+      department: "Phys 440: Computational Physics"
+      maindescription: "Tutored a Cal-Bridge student in numerical methods."
+      description:
+        - "Assignments on solving 2D partial differential equations via grid-based algorithms"
+    - year: Winter 2022
+      title: Teaching Assistant
+      institution: University of California, Santa Cruz
+      department: "ASTR 112: Physics of Stars (Instructor: Ryan Foley)"
+      maindescription: "Covered physical processes stars undergo from formation to death."
+      description:
+        - "Helped design and grade assignments and examinations"
+        - "Conducted office hours (twice per week) to aid student learning"
+        - "Taught session on analyzing data from the Gaia data archive"
+    - year: Fall 2019
+      title: Teaching Assistant
+      institution: University of California, Santa Cruz
+      department: "ASTR 119: Introduction to Scientific Computing (Instructor: Asher Wasserman)"
+      maindescription: "Course covered scientific computation methods via Python."
+      description:
+        - "Helped design and grade assignments and examinations"
+        - "Conducted office hours (twice per week) to aid student learning"
+        - "Weekly Python basics tutorial for first-time coders"
+
+- title: Conference Presentations
+  type: time_table
+  contents:
+    - year: Oct 2025
+      title: "FTSky (Conference)"
+      institution: ICTS, India
+      maindescription: "Invited talk"
+    - year: Oct 2025
+      title: "FTSky (Pedagogy Session)"
+      institution: ICTS, India
+      maindescription: "Invited talk"
+    - year: Jul 2025
+      title: "FRB 2025"
+      institution: McGill University
+      maindescription: "Invited talk"
+    - year: Mar 2025
+      title: "Falcon Workshop"
+      institution: University of Chicago
+      maindescription: "Talk"
+    - year: Dec 2024
+      title: "Baryons Beyond Galactic Boundaries"
+      institution: Pune, India
+      maindescription: "Poster"
+    - year: Nov 2024
+      title: "FRB 2024"
+      institution: Khao Lak, Thailand
+      maindescription: "Talk"
+    - year: Apr 2024
+      title: "Baryons in the Universe 2024"
+      institution: Kavli IPMU
+      maindescription: "Talk"
+    - year: Feb 2023
+      title: "Oases in the Cosmic Desert"
+      institution: Arizona State University
+      maindescription: "Poster"
+    - year: Feb 2023
+      title: "Cosmic Web 2023"
+      institution: UC Santa Barbara
+      maindescription: "Poster"
+    - year: Aug 2022
+      title: "Santa Cruz Galaxy Formation Workshop"
+      institution: UC Santa Cruz
+      maindescription: "Talk"
+    - year: Aug 2022
+      title: "IAU General Assembly S369"
+      institution: Busan, Korea
+      maindescription: "Talk"
+    - year: Aug 2022
+      title: "Keck Science Meeting"
+      institution: CalTech
+      maindescription: "Talk"
+    - year: Sep 2021
+      title: "Keck Science Meeting"
+      institution: UC San Diego
+      maindescription: "Talk"
+    - year: Sep 2020
+      title: "Keck Science Meeting"
+      institution: Virtual Meeting
+      maindescription: "Poster"
+
+- title: Other Talks & Seminars
+  type: time_table
+  contents:
+    - year: May 2025
+      title: "Monday Astronomy Tea Seminar"
+      institution: MIT
+    - year: Oct 2023
+      title: "Astronomy Lunch Talk"
+      institution: UCLA
+    - year: Oct 2023
+      title: "Astronomy Seminar"
+      institution: UC Irvine
+    - year: Mar 2023
+      title: "Cosmology Seminar"
+      institution: UC Berkeley
+    - year: Aug 2022
+      title: "Colloquium"
+      institution: "Pontificia Universidad de Chile, Valparaíso"
+    - year: Jan 2021
+      title: "Public Talk"
+      institution: San Francisco Amateur Astronomers
+    - year: Nov 2020
+      title: "Astronomy on Tap"
+      institution: Santa Cruz
+    - year: Jul 2020
+      title: "Science on Tap"
+      institution: Santa Cruz
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Observational Astronomy Tools
+      contents:
+        - "PypeIt (developer)"
+        - "SExtractor (advanced)"
+        - "Galfit (advanced)"
+        - "CIGALE (advanced)"
+        - "ds9 (advanced)"
+        - "Slitmask design software: AutoSlit, DSimulator, GMMPS, MAGMA (advanced)"
+    - title: Programming Languages & Tools
+      contents:
+        - "Python (advanced)"
+        - "Git (advanced)"
+        - "Bash (familiar)"
+        - "Pyraf/IRAF (familiar)"
+        - "C (familiar)"
+    - title: Languages
+      contents:
+        - "English (advanced)"
+        - "Hindi (advanced)"
+        - "Kannada (fluent)"
+        - "Spanish (beginner)"
+        - "Japanese (beginner)"
+
+- title: Mentorship & Service
+  type: time_table
+  contents:
+    - year: Summer 2025
+      title: CIERA Summer Internship Mentor
+      maindescription: "Mentoring Shelah Boyd (Spelman College, Atlanta) on investigating star-galaxy separation methods in public imaging surveys."
+      description:
+        - "Comparing star-galaxy classification methods across surveys (Pan-STARRS, Legacy Survey, HSC)"
+        - "Quantifying false positive rates for improved FRB host identification with CHIME/FRB"
+    - year: Summer 2023
+      title: SIP Mentor
+      maindescription: "Mentored three high school (12th grade) students in India on FRB research."
+      description:
+        - "Project on using FRBs to probe the M83-CenA cluster galaxy group environment"
+        - "Students performed GMOS multi-object spectroscopic data reduction"
+        - "Redshift estimation using MARZ"
+    - year: Fall 2021 – Winter 2022
+      title: Graduate Admissions Committee
+      institution: UC Santa Cruz, Department of Astronomy
+      maindescription: "Reviewed approximately 400 applications and interviewed selected candidates in first round."
+    - year: Summer 2023
+      title: LAMAT Co-mentor
+      maindescription: "Co-mentored Ayanah Cason (post-baccalaureate) on metal absorption systems at high redshifts."
+      description:
+        - "Advised on publication structure and contextualizing research"
+        - "Galaxy feedback and high-redshift quasar absorption observations"
+    - year: Summer 2021
+      title: LAMAT Co-mentor
+      maindescription: "Co-mentored Jason Barrios (UC Santa Barbara) on probing galaxy feedback with FRBs."
+      description:
+        - "Findings being drafted for publication in Astrophysical Journal"
+
+- title: Hobbies & Interests
+  type: list
+  contents:
+    - Chess
+    - Digital Art
+    - Pencil Sketching
+    - Photography
