@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.northwestern.edu/ciera/'>NU-UC Brinson Postdoctoral Fellow</a>
+subtitle: <a href='https://brinsonfoundation.org/scientific-research/brinson-earlycareer-fellowships/'>NU-UC Brinson Postdoctoral Fellow</a>
 
 profile:
   align: right
