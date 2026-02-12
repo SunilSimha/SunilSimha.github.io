@@ -24,7 +24,7 @@ nav_order: 3
 
 **Newcomb-Cleveland Prize** - American Association for the Advancement of Science (AAAS)
 - Team award of $25,000 for an outstanding research publication in *Science* journal
-- For the research article: [A single fast radio burst localized to a massive galaxy at cosmological distance](https://scixplorer.org/link_gateway/2019Sci...365..565B/doi:10.1126/science.aaw5903)
+- For the research article: [A single fast radio burst localized to a massive galaxy at cosmological distance](https://dx.doi.org/10.1126/science.aaw5903)
 
 ### 2018
 
