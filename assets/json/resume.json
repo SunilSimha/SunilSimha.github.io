@@ -126,29 +126,13 @@
       "name": "Observational Astronomy Tools",
       "level": "Advanced",
       "icon": "fa-solid fa-telescope",
-      "keywords": [
-        "PypeIt (developer)",
-        "SExtractor",
-        "Galfit",
-        "CIGALE",
-        "ds9",
-        "AutoSlit",
-        "DSimulator",
-        "GMMPS",
-        "MAGMA"
-      ]
+      "keywords": ["PypeIt (developer)", "SExtractor", "Galfit", "CIGALE", "ds9", "AutoSlit", "DSimulator", "GMMPS", "MAGMA"]
     },
     {
       "name": "Programming",
       "level": "Advanced",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python",
-        "Git",
-        "Bash",
-        "Pyraf/IRAF",
-        "C"
-      ]
+      "keywords": ["Python", "Git", "Bash", "Pyraf/IRAF", "C"]
     }
   ],
   "languages": [
@@ -193,12 +177,7 @@
     {
       "name": "Hobbies",
       "icon": "fa-solid fa-heart",
-      "keywords": [
-        "Chess",
-        "Digital Art",
-        "Pencil Sketching",
-        "Photography"
-      ]
+      "keywords": ["Chess", "Digital Art", "Pencil Sketching", "Photography"]
     }
   ],
   "projects": [
@@ -229,10 +208,7 @@
     {
       "name": "Keck Visiting Scholar",
       "summary": "Characterized the gratings and detector subsystems of the Low-Resolution Imaging Spectrograph (LRIS) on the Keck telescope.",
-      "highlights": [
-        "Produced spectroscopic throughput measurements for three gratings",
-        "Automated the monthly checkout procedure for LRIS"
-      ],
+      "highlights": ["Produced spectroscopic throughput measurements for three gratings", "Automated the monthly checkout procedure for LRIS"],
       "startDate": "2022-05-01",
       "endDate": "2022-07-01",
       "url": ""
@@ -240,9 +216,7 @@
     {
       "name": "LRIS Red-side Detector Upgrade",
       "summary": "Involved in testing and commissioning of the optical CCD upgrade to LRIS on the Keck telescope.",
-      "highlights": [
-        "Characterized CCD response through measurements of readout noise, gain and linearity"
-      ],
+      "highlights": ["Characterized CCD response through measurements of readout noise, gain and linearity"],
       "startDate": "2020-01-01",
       "endDate": "2021-01-01",
       "url": ""
@@ -250,9 +224,7 @@
     {
       "name": "Mg II Absorber Clustering",
       "summary": "Studied the clustering and distribution of metal absorption lines, specifically the Mg II doublet in quasar spectra.",
-      "highlights": [
-        "Investigated masses of foreground halos contributing to absorption features"
-      ],
+      "highlights": ["Investigated masses of foreground halos contributing to absorption features"],
       "startDate": "2017-01-01",
       "endDate": "2018-01-01",
       "url": ""
