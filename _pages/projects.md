@@ -1,13 +1,26 @@
 ---
 layout: page
-title: projects
+title: research
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Research projects and experience
 nav: true
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
 ---
+
+## Research Experience
+
+I am currently involved in the [FLIMFLAM survey](https://ui.adsabs.harvard.edu/abs/2022ApJ...928....9L/abstract), an effort to map foreground galaxies along FRB sightlines to constrain key parameters describing the distribution of ionized matter in the CGM and IGM to ~20% precision. I lead spectroscopic observational efforts with the Keck and Gemini telescopes for redshift estimation and am involved in imaging, spectroscopy, data reduction, and Bayesian inference for matter density reconstruction.
+
+As a current member of the [$F^4$ team](https://sites.google.com/ucolick.org/f-4/home), I participate in the planning, execution, and data reduction of optical observations of localized FRBs with telescopes such as Keck, Gemini, and SOAR. These observational campaigns aim to identify FRB host galaxies, characterize their properties, and study foreground matter along FRB sightlines.
+
+## Research Highlights
+
+- **FLIMFLAM Survey**: Leading redshift survey of foreground galaxies along FRB sightlines
+- **Optical Follow-up**: Member of the $F^4$ team conducting optical observations with Keck and Gemini
+- **Instrumentation**: Involved in characterizing and upgrading the Low-Resolution Imaging Spectrograph (LRIS) at Keck Observatory
+- **Host Galaxy Studies**: Identifying and characterizing FRB host galaxies and their cosmic environments
 
 <!-- pages/projects.md -->
 <div class="projects">
