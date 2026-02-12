@@ -2,15 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href=''>NU-UC Brinson Fellow</a>
+subtitle: <a href='https://www.northwestern.edu/ciera/'>NU-UC Brinson Postdoctoral Fellow</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p>Email: <a href="mailto:sunil.simha95@gmail.com">sunil.simha95@gmail.com</a></p>
     <p>ERC 553, A&A, University of Chicago</p>
     <p>8023, CIERA, Northwestern University</p>
+    <p><a href="https://github.com/SunilSimha">GitHub</a> • <a href="https://orcid.org/0000-0003-3801-1496">ORCiD</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -26,6 +28,43 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a observational astronomer interested in diffuse plasma within dark matter halos and in the filaments of the cosmic web. My current choice of probes of the gas is Fast Radio Bursts (FRBs). FRBs are millisecond-duration transient events that can only be observed with radio telescopes. All radio light travelling through space is dispersed by the plasma that is prevalent along its path. Due to their short duration, the extent of dispersion can be precisely measured for FRBs. FRB dispersion measures (DMs) therefore provide us with precise estimates of the total column of diffuse gas they have propagated through.
+## About Me
 
-I am currently involved in the [FLIMFLAM survey](https://ui.adsabs.harvard.edu/abs/2022ApJ...928....9L/abstract), an effort to map the foreground galaxies along FRB sightlines to build a detailed map of gas they travelled through. In modeling the FRB DMs for a sample of 30 FRBs, we can [lay constraints](https://ui.adsabs.harvard.edu/abs/2024ApJ...973..151K/abstract) on the gas fractions contained within halos and the cosmic web filaments. The exact values of these fractions hold the key to understanding how gas is ejected by galaxies through supernovae and black hole activity.
+I am an observational astronomer fascinated by the diffuse plasma within dark matter halos and the filaments of the cosmic web. My primary research instrument of choice is Fast Radio Bursts (FRBs)—millisecond-duration transient radio events that act as precision cosmological probes. As radio light traverses the universe, it gets dispersed by ionized gas along its path. The dispersion measure (DM) of an FRB provides precise estimates of the total column of diffuse gas it has travelled through, making FRBs invaluable tools for mapping the baryonic constituent of our universe.
+
+My research interests center on Fast Radio Bursts (FRBs) as probes of the circumgalactic and intergalactic media (CGM and IGM), with a focus on understanding the distribution and properties of ionized matter at cosmic scales.
+
+## Current Position
+
+Since September 2024, I have been a **Brinson Postdoctoral Fellow** at the University of Chicago and Northwestern University, conducting research on cosmology and astrophysics.
+
+## Education
+
+<div class="row">
+  <div class="col-sm-8">
+    <h4>University of California, Santa Cruz</h4>
+    <p><strong>Ph.D. in Astronomy and Astrophysics</strong> (2018 – June 2024)</p>
+    <p style="font-size: 0.9em; margin-top: -8px;">Santa Cruz, California, USA</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-8">
+    <h4>Indian Institute of Technology Madras</h4>
+    <p><strong>BS-MS in Physics</strong> (2013 – 2018)</p>
+    <p style="font-size: 0.9em; margin-top: -8px;">Chennai, Tamil Nadu, India</p>
+  </div>
+</div>
+
+## Research Experience
+
+I am currently involved in the [FLIMFLAM survey](https://ui.adsabs.harvard.edu/abs/2022ApJ...928....9L/abstract), an effort to map foreground galaxies along FRB sightlines to constrain key parameters describing the distribution of ionized matter in the CGM and IGM to ~20% precision. I lead spectroscopic observational efforts with the Keck and Gemini telescopes for redshift estimation and am involved in imaging, spectroscopy, data reduction, and Bayesian inference for matter density reconstruction.
+
+As a current member of the [$F^4$ team](https://sites.google.com/ucolick.org/f-4/home), I participate in the planning, execution, and data reduction of optical observations of localized FRBs with telescopes such as Keck, Gemini, and SOAR. These observational campaigns aim to identify FRB host galaxies, characterize their properties, and study foreground matter along FRB sightlines.
+
+## Research Highlights
+
+- **FLIMFLAM Survey**: Leading redshift survey of foreground galaxies along FRB sightlines
+- **Optical Follow-up**: Member of the $F^4$ team conducting optical observations with Keck and Gemini
+- **Instrumentation**: Involved in characterizing and upgrading the Low-Resolution Imaging Spectrograph (LRIS) at Keck Observatory
+- **Host Galaxy Studies**: Identifying and characterizing FRB host galaxies and their cosmic environments
