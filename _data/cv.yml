@@ -113,7 +113,7 @@
 - title: Publications
   type: list
   contents:
-    - "See full publication list at: https://ui.adsabs.harvard.edu/search/q=((%20author%3A%22simha%2C%20sunil%22)%20AND%20year%3A2018-)&sort=date%20desc%2C%20bibcode%20desc&p_=0"
+    - "See the <a href='/publications/'>publications page</a> or the <a href='https://ui.adsabs.harvard.edu/search/q=((%20author%3A%22simha%2C%20sunil%22)%20AND%20year%3A2018-)&sort=date%20desc%2C%20bibcode%20desc&p_=0'>full list on ADS</a>."
 
 - title: Teaching Experience
   type: time_table
@@ -153,6 +153,10 @@
 - title: Conference Presentations
   type: time_table
   contents:
+    - year: Jul 2026
+      title: "FRB 2026"
+      institution: Guiyang, China
+      maindescription: "Talk (<a href='https://youtu.be/cBtixr7uln8?t=3845'>recording</a>)"
     - year: Oct 2025
       title: "FTSky (Conference)"
       institution: ICTS, India
@@ -267,6 +271,9 @@
 - title: Mentorship & Service
   type: time_table
   contents:
+    - year: May 2026
+      title: FAST TAC
+      maindescription: "Served as a proposal reviewer in the 2026B time-allocation committee (TAC) of the Five-hundred-meter Aperture Spherical Telescope (FAST)."
     - year: Summer 2025
       title: CIERA Summer Internship Mentor
       maindescription: "Mentoring Shelah Boyd (Spelman College, Atlanta) on investigating star-galaxy separation methods in public imaging surveys."

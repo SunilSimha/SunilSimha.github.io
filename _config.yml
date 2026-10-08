@@ -630,9 +630,11 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
+# The /cv/ page is rendered from _data/cv.yml. To switch back to the JSON resume,
+# restore the block below (site.data.resume takes precedence over cv.yml).
+# jekyll_get_json:
+#   - data: resume
+#     json: assets/json/resume.json # it can also be an url
 
 jsonresume:
   - basics
