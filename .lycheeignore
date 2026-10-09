@@ -3,5 +3,5 @@ reddit\.com$
 file://.*/_posts$
 ^https://docs\.conda\.io/en/latest/
 ^https://www\.science\.org/doi/10\.1126/science\.aaw5903
-^https://ui\.adsabs\.harvard\.edu/
+^https://scixplorer\.org/
 ^https://unsplash\.com/

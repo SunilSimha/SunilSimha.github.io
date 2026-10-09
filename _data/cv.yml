@@ -113,7 +113,7 @@
 - title: Publications
   type: list
   contents:
-    - "See the <a href='/publications/'>publications page</a> or the <a href='https://ui.adsabs.harvard.edu/search/q=((%20author%3A%22simha%2C%20sunil%22)%20AND%20year%3A2018-)&sort=date%20desc%2C%20bibcode%20desc&p_=0'>full list on ADS</a>."
+    - "See the <a href='/publications/'>publications page</a> or the <a href='https://scixplorer.org/search?q=author%3A%22simha%2C%20sunil%22%20year%3A2018-&sort=date%20desc%2C%20bibcode%20desc'>full list on SciX</a>."
 
 - title: Teaching Experience
   type: time_table

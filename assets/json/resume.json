@@ -116,7 +116,7 @@
       "name": "Full publication list",
       "publisher": "NASA ADS",
       "releaseDate": "2018-present",
-      "url": "https://ui.adsabs.harvard.edu/search/q=((%20author%3A%22simha%2C%20sunil%22)%20AND%20year%3A2018-)&sort=date%20desc%2C%20bibcode%20desc&p_=0",
+      "url": "https://scixplorer.org/search?q=author%3A%22simha%2C%20sunil%22%20year%3A2018-&sort=date%20desc%2C%20bibcode%20desc",
       "summary": "Complete list of publications including first-author, significant contribution, and minor contribution papers."
     }
   ],
@@ -190,7 +190,7 @@
       ],
       "startDate": "2021-01-01",
       "endDate": "",
-      "url": "https://ui.adsabs.harvard.edu/abs/2022ApJ...928....9L/abstract"
+      "url": "https://scixplorer.org/abs/2022ApJ...928....9L/abstract"
     },
     {
       "name": "Optical Follow-up of Localized FRBs",
