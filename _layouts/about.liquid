@@ -58,9 +58,13 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
+      <h2>selected publications</h2>
+      {% if page.publications_url %}
+        <p>
+          A full list of my publications is available on
+          <a href="{{ page.publications_url }}">SciX</a>. Featured papers:
+        </p>
+      {% endif %}
       {% include selected_papers.liquid %}
     {% endif %}
 

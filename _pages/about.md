@@ -15,6 +15,7 @@ profile:
     <p><a href="https://github.com/SunilSimha">GitHub</a> • <a href="https://orcid.org/0000-0003-3801-1496">ORCiD</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
+publications_url: https://scixplorer.org/search?q=author%3A%22simha%2C%20sunil%22%20year%3A2018-&sort=date%20desc%2C%20bibcode%20desc
 social: false # includes social icons at the bottom of the page
 
 announcements:
