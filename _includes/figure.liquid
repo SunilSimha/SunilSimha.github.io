@@ -72,6 +72,12 @@
       {% if include.zoom_src %}
         data-zoom-src="{{ include.zoom_src | relative_url }}"
       {% endif %}
+      {% if include.zoom_caption %}
+        data-zoom-caption="{{ include.zoom_caption | strip_html | strip | escape }}"
+        {% if include.zoom_title %}
+          data-zoom-title="{{ include.zoom_title | strip_html | strip | escape }}"
+        {% endif %}
+      {% endif %}
       {% if include.loading %}
         loading="{{ include.loading }}"
       {% elsif site.lazy_loading_images %}

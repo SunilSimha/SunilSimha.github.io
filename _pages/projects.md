@@ -1,78 +1,32 @@
 ---
 layout: page
-title: research
+title: Research
 permalink: /projects/
-description: Research projects and experience
+description: Understanding the origins of FRBs through their host galaxies and using FRBs as probes of foreground baryons.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
-horizontal: false
+publications_url: https://scixplorer.org/search?q=author%3A%22simha%2C%20sunil%22%20year%3A2018-&sort=date%20desc%2C%20bibcode%20desc
 ---
 
-## Research Experience
+Fast radio bursts (FRBs) are millisecond-duration radio flashes from distant galaxies. As each burst crosses the universe, free electrons along its path delay the lower frequencies, an effect measured by the dispersion measure (DM). My research follows two connected threads: understanding the galaxies and local environments that host FRBs, and using the bursts to measure the diffuse ionized gas between galaxies.
 
-I am currently involved in the [FLIMFLAM survey](https://scixplorer.org/abs/2022ApJ...928....9L/abstract), an effort to map foreground galaxies along FRB sightlines to constrain key parameters describing the distribution of ionized matter in the CGM and IGM to ~20% precision. I lead spectroscopic observational efforts with the Keck and Gemini telescopes for redshift estimation and am involved in imaging, spectroscopy, data reduction, and Bayesian inference for matter density reconstruction.
+## FRB host galaxies
 
-As a current member of the [$F^4$ team](https://sites.google.com/ucolick.org/f-4/home), I participate in the planning, execution, and data reduction of optical observations of localized FRBs with telescopes such as Keck, Gemini, and SOAR. These observational campaigns aim to identify FRB host galaxies, characterize their properties, and study foreground matter along FRB sightlines.
+What produces an FRB is still an open question, and where the bursts occur is one of the best clues. I use optical and infrared imaging and integral-field spectroscopy (with Keck/KCWI, Magellan/LLAMAS, HST, and other facilities) to resolve the star formation, gas metallicity, and ionization around precisely localized FRBs. Examples include the spiral-arm environment of FRB 190608, spatially resolved metallicity maps of five nearby hosts, and FRB 20250316A, localized to 13 pc. These measurements also determine how much of a burst's dispersion arises in its own host galaxy, which must be subtracted before the burst can serve as a clean probe of the gas outside it.
 
-## Research Highlights
+As a member of the [$F^4$ team](https://sites.google.com/ucolick.org/f-4/home), I participate in the planning, execution, and data reduction of optical observations of localized FRBs with telescopes such as Keck, Gemini, and SOAR.
 
-- **FLIMFLAM Survey**: Leading redshift survey of foreground galaxies along FRB sightlines
-- **Optical Follow-up**: Member of the $F^4$ team conducting optical observations with Keck and Gemini
-- **Instrumentation**: Involved in characterizing and upgrading the Low-Resolution Imaging Spectrograph (LRIS) at Keck Observatory
-- **Host Galaxy Studies**: Identifying and characterizing FRB host galaxies and their cosmic environments
+## FRBs as probes of cosmic baryons
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+Much of the universe's ordinary matter is diffuse gas in the circumgalactic and intergalactic media (CGM and IGM), too faint to see directly. An FRB's dispersion measure counts every free electron along its path, so once the Milky Way and the host are accounted for, what remains traces this gas.
 
-{% else %}
+I am involved in the [FLIMFLAM survey](https://scixplorer.org/abs/2022ApJ...928....9L/abstract), which maps the foreground galaxies along FRB sightlines to constrain how baryons are distributed between the CGM and IGM. Its first data release, covering eight sightlines, produced the first measurement of that split. I lead spectroscopic observational efforts with the Keck and Gemini telescopes for redshift estimation and am involved in imaging, spectroscopy, data reduction, and Bayesian inference for matter density reconstruction. I have also modeled how individual foreground galaxy halos and cosmic web filaments contribute to the DM of particular bursts, such as FRB 180924 and FRB 190608.
 
-<!-- Display projects without categories -->
+## Selected Publications
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+<p>
+  A full list of my publications is available on
+  <a href="{{ page.publications_url }}">SciX</a>. Featured papers:
+</p>
 
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
+{% include selected_papers.liquid %}

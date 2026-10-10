@@ -204,6 +204,27 @@ ul.task-list input[type="checkbox"] {
       display: inline-block;
       margin: 0;
     }
+
+    // Prominent CV download button under the photo (see _pages/about.md)
+    a.cv-download {
+      display: block;
+      margin: 0.75rem 0;
+      padding: 0.5rem 1rem;
+      border: 1px solid var(--global-theme-color);
+      border-radius: 0.25rem;
+      background-color: var(--global-theme-color);
+      color: var(--global-card-bg-color);
+      font-family: Roboto, sans-serif;
+      font-size: 1rem;
+      text-align: center;
+      text-decoration: none;
+
+      &:hover {
+        background-color: transparent;
+        color: var(--global-theme-color);
+        text-decoration: none;
+      }
+    }
   }
 }
 
@@ -1135,6 +1156,48 @@ nav[data-toggle="toc"] {
 .medium-zoom-overlay,
 .medium-zoom-image--opened {
   z-index: 999;
+}
+
+// Caption shown under a zoomed image (see assets/js/zoom.js)
+.zoom-caption {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  // Above the fixed navbar/footer (bootstrap z-index 1030), which would otherwise cover the last lines.
+  z-index: 1040;
+  padding: 0.75rem 1rem 1rem;
+  background-color: var(--global-bg-color);
+  color: var(--global-text-color);
+  font-size: 0.9rem;
+  line-height: 1.45;
+  // Short windows: cap the height and let the text scroll rather than run off the screen.
+  max-height: 40vh;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s;
+
+  &.zoom-caption--visible {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .zoom-caption-title,
+  p {
+    max-width: 46rem;
+    margin: 0 auto;
+  }
+
+  .zoom-caption-title {
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+
+  @media (max-width: 576px) {
+    font-size: 0.8rem;
+  }
 }
 
 #toc-sidebar {
