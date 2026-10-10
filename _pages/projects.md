@@ -5,7 +5,6 @@ permalink: /projects/
 description: Understanding the origins of FRBs through their host galaxies and using FRBs as probes of foreground baryons.
 nav: true
 nav_order: 3
-publications_url: https://scixplorer.org/search?q=author%3A%22simha%2C%20sunil%22%20year%3A2018-&sort=date%20desc%2C%20bibcode%20desc
 ---
 
 Fast radio bursts (FRBs) are millisecond-duration radio flashes from distant galaxies. As each burst crosses the universe, free electrons along its path delay the lower frequencies, an effect measured by the dispersion measure (DM). My research follows two connected threads: understanding the galaxies and local environments that host FRBs, and using the bursts to measure the diffuse ionized gas between galaxies.
@@ -25,8 +24,15 @@ I am involved in the [FLIMFLAM survey](https://scixplorer.org/abs/2022ApJ...928.
 ## Selected Publications
 
 <p>
-  A full list of my publications is available on
-  <a href="{{ page.publications_url }}">SciX</a>. Featured papers:
+  <a
+    class="filled-button"
+    href="https://scixplorer.org/search?q=author%3A%22simha%2C%20sunil%22%20year%3A2018-&sort=date%20desc%2C%20bibcode%20desc"
+    target="_blank"
+    rel="noopener"
+  >
+    <i class="fa-solid fa-book-open"></i>
+    Full publication list on SciX
+  </a>
 </p>
 
 {% include selected_papers.liquid %}

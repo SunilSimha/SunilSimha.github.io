@@ -192,6 +192,25 @@ ul.task-list input[type="checkbox"] {
 
 // Profile
 
+// Filled, theme-colored button shared by the CV download and publication-list buttons
+@mixin filled-button {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--global-theme-color);
+  border-radius: 0.25rem;
+  background-color: var(--global-theme-color);
+  color: var(--global-card-bg-color);
+  font-family: Roboto, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+
+  &:hover {
+    background-color: transparent;
+    color: var(--global-theme-color);
+    text-decoration: none;
+  }
+}
+
 .profile {
   width: 100%;
 
@@ -204,28 +223,23 @@ ul.task-list input[type="checkbox"] {
       display: inline-block;
       margin: 0;
     }
-
-    // Prominent CV download button under the photo (see _pages/about.md)
-    a.cv-download {
-      display: block;
-      margin: 0.75rem 0;
-      padding: 0.5rem 1rem;
-      border: 1px solid var(--global-theme-color);
-      border-radius: 0.25rem;
-      background-color: var(--global-theme-color);
-      color: var(--global-card-bg-color);
-      font-family: Roboto, sans-serif;
-      font-size: 1rem;
-      text-align: center;
-      text-decoration: none;
-
-      &:hover {
-        background-color: transparent;
-        color: var(--global-theme-color);
-        text-decoration: none;
-      }
-    }
   }
+
+  // Prominent CV download button under the photo (see _layouts/about.liquid)
+  a.cv-download {
+    @include filled-button;
+
+    display: block;
+    margin: 0.75rem 0;
+  }
+}
+
+// Prominent link button, e.g. "all my publications" on the research page
+a.filled-button {
+  @include filled-button;
+
+  display: inline-block;
+  margin: 0.25rem 0 1.25rem;
 }
 
 .profile.float-right {
@@ -1202,6 +1216,156 @@ nav[data-toggle="toc"] {
 
 #toc-sidebar {
   z-index: 1;
+}
+
+// Birding page (see _includes/birding.liquid and assets/js/birding-map.js)
+.birding {
+  .birding-explorer {
+    display: flex;
+    gap: 1rem;
+    margin: 1.5rem 0 0.5rem;
+  }
+
+  .birding-map {
+    position: relative;
+    z-index: 0;
+    flex: 1 1 auto;
+    min-height: 710px; // as tall as the viewer with a portrait photo, so the page never jumps
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.5rem;
+    background-color: #aad3df; // ocean colour, shown where the world map ends
+
+    .leaflet-bar a {
+      border-bottom-color: var(--global-divider-color);
+      background-color: var(--global-card-bg-color);
+      color: var(--global-text-color);
+    }
+
+    .leaflet-tooltip {
+      border-color: var(--global-divider-color);
+      background-color: var(--global-card-bg-color);
+      color: var(--global-text-color);
+      box-shadow: none;
+    }
+
+    .leaflet-tooltip-top::before {
+      border-top-color: var(--global-divider-color);
+    }
+  }
+
+  // The OpenStreetMap basemap is light-only, so dim it in dark mode.
+  html[data-theme="dark"] & .birding-map {
+    background-color: #1c3a46;
+
+    .leaflet-tile-pane {
+      filter: invert(1) hue-rotate(180deg) brightness(0.9) contrast(0.9);
+    }
+  }
+
+  .birding-viewer {
+    flex: 0 0 300px;
+
+    .birding-viewer-title {
+      min-height: 3em; // room for two lines
+      margin-bottom: 0.4rem;
+      font-weight: 600;
+    }
+
+    .birding-viewer-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 0.4rem;
+
+      button {
+        padding: 0 0.75rem;
+        border: 1px solid var(--global-divider-color);
+        border-radius: 0.25rem;
+        background: transparent;
+        color: var(--global-text-color);
+        font-size: 1.25rem;
+        line-height: 1.6;
+        cursor: pointer;
+
+        &:hover {
+          border-color: var(--global-theme-color);
+          color: var(--global-theme-color);
+        }
+      }
+    }
+  }
+
+  // Macaulay Library embeds are designed for a white background. Landscape photos need about 1.65:1
+  // (height:width) and portrait photos about 2:1, to leave room for the credit line below the photo.
+  .birding-viewer-frame,
+  .birding-card {
+    position: relative;
+    aspect-ratio: 100 / 165;
+    overflow: hidden;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+      color-scheme: light;
+    }
+  }
+
+  .birding-viewer-frame--portrait,
+  .birding-card--portrait {
+    aspect-ratio: 1 / 2;
+  }
+
+  .birding-note {
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+  }
+
+  .birding-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+
+  .birding-more a {
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    border: 1px solid var(--global-text-color);
+    border-radius: 0.25rem;
+    color: var(--global-text-color);
+    font-size: 0.85rem;
+    text-decoration: none;
+
+    &:hover {
+      border-color: var(--global-theme-color);
+      color: var(--global-theme-color);
+    }
+  }
+}
+
+// Map above the photo on narrower screens.
+@media (max-width: 991px) {
+  .birding .birding-explorer {
+    flex-direction: column;
+
+    .birding-map {
+      flex: none;
+      min-height: 420px;
+    }
+
+    .birding-viewer {
+      flex: none;
+      width: 100%;
+      max-width: 360px;
+    }
+  }
 }
 
 .echarts {

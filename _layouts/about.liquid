@@ -32,6 +32,12 @@ layout: default
             cache_bust=true
           %}
         {% endif %}
+        {% if page.profile.cv_pdf %}
+          <a class="cv-download" href="{{ page.profile.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" download="Sunil_Simha_CV.pdf">
+            <i class="fa-solid fa-file-pdf"></i>
+            Download CV (PDF)
+          </a>
+        {% endif %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}

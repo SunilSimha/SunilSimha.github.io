@@ -8,8 +8,8 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
+  cv_pdf: CV_grad.pdf # file in assets/pdf/, shown as a download button under the photo
   more_info: >
-    <a class="cv-download" href="/assets/pdf/CV_grad.pdf" download="Sunil_Simha_CV.pdf"><i class="fa-solid fa-file-pdf"></i> Download CV (PDF)</a>
     <p>Email: <a href="mailto:sunil.simha95@gmail.com">sunil.simha95@gmail.com</a></p>
     <p>ERC 553, A&A, University of Chicago</p>
     <p>8023, CIERA, Northwestern University</p>
