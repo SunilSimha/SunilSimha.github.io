@@ -8,7 +8,7 @@ arxiv: https://arxiv.org/abs/2610.07325
 img: assets/img/publication_preview/simha2026_metallicity.png
 ---
 
-**TL;DR:** we mapped the chemical make-up, specifically the oxygen content,a of gas across five galaxies that produced radio flashes, and found that it varies so much within each galaxy that a single number per galaxy can give the wrong idea about the place the flash came from.
+**TL;DR:** we mapped the chemical make-up, specifically the oxygen content, of gas across five galaxies that produced radio flashes, and found that it varies so much within each galaxy that a single number per galaxy can give the wrong idea about the place the flash came from.
 
 ## Context
 
