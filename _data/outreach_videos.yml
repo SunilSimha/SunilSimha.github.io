@@ -1,0 +1,28 @@
+# Videos on the Outreach page, in display order (see _pages/outreach.md and _includes/outreach_video.liquid).
+# Each entry has either `youtube` (the video id) or self-hosted `webm` / `mp4` / `poster` paths.
+# `start` and `end` are optional and in seconds (YouTube only).
+
+- title: "Uncovering the hidden universe"
+  blurb: >-
+    An eight-minute talk for a general audience, recorded at Northwestern University: how background
+    light sources such as fast radio bursts help us reveal invisible gas in space. This was my final
+    presentation for the excellent
+    <a href="https://www.tgs.northwestern.edu/services-support/professional-development/rctp/">RCTP course</a>.
+  webm: /assets/video/outreach/rctp_1080p.webm
+  mp4: /assets/video/outreach/rctp_720p.mp4
+  poster: /assets/img/outreach/rctp_poster.jpg
+
+- title: "Astronomy on Tap: Fast Radio Bursts"
+  blurb: >-
+    A public talk with Jay Chittidi at Astronomy on Tap Santa Cruz (November 2020): how fast radio bursts were
+    discovered, what we know about them, and how they let us measure where the universe keeps its matter.
+  youtube: 1MLDxRQZlzA
+  start: # TODO: the second at which my segment starts; plays from the beginning while empty
+  end:
+
+- title: "FRBs as probes of foreground matter"
+  blurb: >-
+    A lecture for student researchers at the Fast Radio Transient Sky (FTSky) programme, ICTS Bengaluru
+    (October 2025): an overview of optical follow-up of fast radio bursts and what the bursts tell us about
+    the gas in front of them.
+  youtube: GKMQ7f54tpg

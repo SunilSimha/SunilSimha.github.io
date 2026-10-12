@@ -1218,6 +1218,50 @@ nav[data-toggle="toc"] {
   z-index: 1;
 }
 
+// Outreach page and explainers (see _pages/outreach.md and _layouts/outreach.liquid)
+.outreach-video {
+  max-width: 48rem;
+  margin: 0 0 2.5rem;
+
+  h3 {
+    margin-bottom: 0.75rem;
+  }
+
+  video {
+    background-color: #000;
+  }
+
+  .outreach-video-blurb {
+    margin-top: 0.75rem;
+    font-size: 0.9rem;
+  }
+}
+
+// Explainer titles are full sentences, so they are set smaller than project titles
+.outreach-cards .card-title {
+  font-size: 1.15rem;
+  line-height: 1.35;
+}
+
+.outreach-explainer {
+  .outreach-source {
+    font-size: 0.9rem;
+
+    .outreach-paper {
+      font-style: italic;
+    }
+  }
+
+  .outreach-figure {
+    max-width: 36rem;
+    margin: 1.5rem auto;
+  }
+
+  .outreach-back {
+    margin-top: 2rem;
+  }
+}
+
 // Birding page (see _includes/birding.liquid and assets/js/birding-map.js)
 .birding {
   .birding-explorer {

@@ -1,0 +1,21 @@
+{% comment %} One explainer card on the Outreach page; expects `explainer`, a document of the outreach collection. {% endcomment %}
+<div class="col">
+  <a href="{{ explainer.url | relative_url }}">
+    <div class="card h-100 hoverable">
+      {% if explainer.img %}
+        {%
+          include figure.liquid
+          loading="lazy"
+          path=explainer.img
+          sizes = "250px"
+          alt=explainer.paper_title
+          class="card-img-top"
+        %}
+      {% endif %}
+      <div class="card-body">
+        <h2 class="card-title">{{ explainer.title }}</h2>
+        <p class="card-text">{{ explainer.reference }}</p>
+      </div>
+    </div>
+  </a>
+</div>

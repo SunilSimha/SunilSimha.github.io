@@ -1,0 +1,44 @@
+{% comment %}
+  One video on the Outreach page, kept at 16:9 at any width.
+  include.video is an entry of _data/outreach_videos.yml: either a YouTube id or self-hosted files.
+{% endcomment %}
+{% assign video = include.video %}
+<div class="outreach-video">
+  <h3>{{ video.title }}</h3>
+  <div class="embed-responsive embed-responsive-16by9 rounded z-depth-1">
+    {% if video.youtube %}
+      {% capture params %}rel=0{% if video.start %}&amp;start={{ video.start }}{% endif %}{% if video.end %}&amp;end={{ video.end }}{% endif %}{% endcapture %}
+      <iframe
+        class="embed-responsive-item"
+        src="https://www.youtube-nocookie.com/embed/{{ video.youtube }}?{{ params }}"
+        title="{{ video.title | escape }}"
+        loading="lazy"
+        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    {% else %}
+      <video
+        class="embed-responsive-item"
+        controls
+        preload="metadata"
+        {% if video.poster %}
+          poster="{{ video.poster | relative_url }}"
+        {% endif %}
+      >
+        {% if video.webm %}
+          <source src="{{ video.webm | relative_url }}" type='video/webm; codecs="av01.0.08M.08, opus"'>
+        {% endif %}
+        {% if video.mp4 %}
+          <source src="{{ video.mp4 | relative_url }}" type="video/mp4">
+        {% endif %}
+        Your browser cannot play this video.
+        {% if video.mp4 %}
+          <a href="{{ video.mp4 | relative_url }}">Download it instead</a>.
+        {% endif %}
+      </video>
+    {% endif %}
+  </div>
+  {% if video.blurb %}
+    <p class="outreach-video-blurb">{{ video.blurb }}</p>
+  {% endif %}
+</div>

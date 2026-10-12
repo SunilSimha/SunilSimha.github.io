@@ -137,6 +137,9 @@ collections:
     output: true
   projects:
     output: true
+  outreach: # plain-language explainers, listed on the Outreach page (_pages/outreach.md)
+    output: true
+    permalink: /outreach/:name/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -160,7 +163,6 @@ include: ["_pages", "_scripts"]
 exclude:
   - bin/
   - birding_links.md
-  - _pages/birding.md # hidden until the Birding page launches (remove this line to publish it)
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
@@ -220,6 +222,11 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+  - scope:
+      path: ""
+      type: "outreach"
+    values:
+      layout: outreach
 
 sass:
   style: compressed

@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<div class="post outreach-explainer">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <article>
+    <p class="outreach-source">
+      A plain-language summary of
+      <a class="outreach-paper" href="{{ page.paper_url }}">{{ page.paper_title }}</a>
+      ({{ page.reference }}
+      {%- if page.arxiv -%}
+        ; <a href="{{ page.arxiv }}">arXiv</a>
+      {%- endif -%}
+      ).
+    </p>
+
+    {% if page.img %}
+      <div class="outreach-figure">
+        {%
+          include figure.liquid
+          path=page.img
+          class="img-fluid rounded z-depth-1"
+          zoomable=true
+          zoom_src=page.img
+          alt=page.paper_title
+        %}
+      </div>
+    {% endif %}
+
+    {{ content }}
+  </article>
+
+  <p class="outreach-back">
+    <a href="{{ '/outreach/' | relative_url }}">&larr; More videos and explainers</a>
+  </p>
+</div>

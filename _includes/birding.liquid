@@ -1,0 +1,40 @@
+{% assign photos = site.data.birding.photos %}
+{% if photos and photos.size > 0 %}
+  <div class="birding">
+    <div class="birding-explorer">
+      <div id="birding-map" class="birding-map" role="region" aria-label="Map of where my bird photos were taken"></div>
+      <div id="birding-viewer" class="birding-viewer" aria-live="polite"></div>
+    </div>
+    <script type="application/json" id="birding-data">
+      {{ photos | jsonify }}
+    </script>
+    <p class="birding-note">
+      Click a marker to see the photo. Photos are embedded from the
+      <a href="https://macaulaylibrary.org/" target="_blank" rel="noopener">Macaulay Library</a>
+      at the Cornell Lab of Ornithology, which credits the photographer and links each photo to its eBird checklist.
+    </p>
+
+    <h2>Latest photos</h2>
+    <div class="birding-grid">
+      {% for photo in photos limit: 6 %}
+        <div class="birding-card{% if photo.portrait %} birding-card--portrait{% endif %}">
+          <iframe
+            src="https://macaulaylibrary.org/asset/{{ photo.ml }}/embed"
+            title="{{ photo.species | default: 'Bird photo' | escape }}{% if photo.place %}, {{ photo.place | escape }}{% endif %}"
+            loading="lazy"
+            allowfullscreen
+          ></iframe>
+        </div>
+      {% endfor %}
+    </div>
+
+    {% if site.data.birding.photos_url %}
+      <p class="birding-more">
+        <a class="btn btn-sm z-depth-0" role="button" href="{{ site.data.birding.photos_url }}" target="_blank" rel="noopener">
+          All my photos on the Macaulay Library
+        </a>
+      </p>
+    {% endif %}
+  </div>
+  <script defer src="{{ '/assets/js/birding-map.js' | relative_url | bust_file_cache }}"></script>
+{% endif %}

@@ -1,0 +1,113 @@
+# Photos shown on the Birding page: as markers on the map and in the "Latest photos" grid.
+#
+# Each photo is embedded from the Macaulay Library (Cornell Lab of Ornithology), which shows
+# the credit, species and checklist link automatically. Embedding is for non-commercial use.
+#
+# To add a photo, open it on macaulaylibrary.org and copy the number from the address,
+# e.g. https://macaulaylibrary.org/asset/301254571  ->  ml: 301254571
+# List the newest photos first: the first few are shown in "Latest photos".
+#
+# Add "portrait: true" to a tall (portrait-orientation) photo so its embed gets a taller frame;
+# otherwise the credit line under the photo is cut off.
+#
+# photos_url: where the "All my photos" button points.
+photos_url: https://media.ebird.org/catalog?userId=USER3696499&mediaType=photo
+
+photos:
+  - ml: 661778635
+    species: "White-browed Laughingthrush"
+    place: "Hongfeng Lake Scenic Area, Guizhou, China"
+    lat: 26.4865 # Hongfeng Reservoir
+    lon: 106.4133
+  - ml: 659801244
+    species: "Inca Tern"
+    portrait: true
+    place: "La Roca del Léon, Viña del Mar, Chile"
+    lat: -33.0245 # approx: centre of Viña del Mar
+    lon: -71.5518
+  - ml: 659170022
+    species: "Oasis Hummingbird"
+    place: "El Pino, Las Campanas Observatory headquarters, La Serena, Chile"
+    lat: -29.9126 # Colina El Pino, La Serena
+    lon: -71.2379
+  - ml: 656980334
+    species: "Yellow-rumped Warbler"
+    place: "Montrose Point Bird Sanctuary, Illinois, United States"
+    lat: 41.963
+    lon: -87.6332
+  - ml: 656980215
+    species: "Baltimore Oriole"
+    place: "Montrose Point Bird Sanctuary, Illinois, United States"
+    lat: 41.963
+    lon: -87.6332
+  - ml: 656506249
+    species: "Red-headed Woodpecker"
+    place: "Montrose Point Bird Sanctuary, Illinois, United States"
+    lat: 41.963
+    lon: -87.6332
+  - ml: 656980252
+    species: "Chestnut-sided Warbler"
+    place: "Montrose Point Bird Sanctuary, Illinois, United States"
+    lat: 41.963
+    lon: -87.6332
+  - ml: 655333337
+    species: "Warbling White-eye"
+    place: "Kasai Rinkai Park, Tokyo, Japan"
+    lat: 35.6422
+    lon: 139.8595
+  - ml: 643593620
+    species: "Lesser Fish-Eagle"
+    portrait: true
+    place: "Cauvery Wildlife Sanctuary (Bommasandra), Karnataka, India"
+    lat: 12.4413 # approx: Bommasandra, Kanakapura taluk
+    lon: 77.5527
+  - ml: 643338383
+    species: "Yellow-crowned Woodpecker"
+    place: "Thorn forest before bridge (White-naped Tit), Karnataka, India"
+    lat: 12.288 # approx: near Sangama
+    lon: 77.432
+  - ml: 643593485
+    species: "Indian Scops-Owl"
+    place: "Sangama - Mutthatthi Road, Karnataka, India"
+    lat: 12.2975 # approx: midway between Sangama and Mutthatthi
+    lon: 77.371
+  - ml: 643065898
+    species: "Purple Sunbird"
+    place: "ICTS Campus, Bengaluru, Karnataka, India"
+    lat: 13.1452
+    lon: 77.5144
+  - ml: 636418068
+    species: "Bay-breasted Warbler"
+    place: "Forest Glen Woods Forest Preserve, Illinois, United States"
+    lat: 41.984
+    lon: -87.7578
+  - ml: 636048725
+    species: "Rose-breasted Grosbeak"
+    place: "Montrose Point Bird Sanctuary, Illinois, United States"
+    lat: 41.963
+    lon: -87.6332
+  - ml: 636047251
+    species: "Blackburnian Warbler"
+    place: "Montrose Point Bird Sanctuary, Illinois, United States"
+    lat: 41.963
+    lon: -87.6332
+  - ml: 625768483
+    species: "Collared Kingfisher"
+    place: "JW Marriott Khao Lak, Phangnga, Thailand"
+    lat: 8.6125 # approx: Khao Lak village
+    lon: 98.2419
+  - ml: 625512815
+    species: "Anna's Hummingbird"
+    place: "UC Santa Cruz Arboretum, California, United States"
+    lat: 36.9823
+    lon: -122.06
+  - ml: 622402662
+    species: "Black-rumped Flameback"
+    place: "Kolachekambala, Mulki, Karnataka, India"
+    lat: 13.0904 # approx: Mulki town
+    lon: 74.787
+  - ml: 621932168
+    species: "Red-billed Leiothrix"
+    place: "Momijidani Course, Hiroshima, Japan"
+    lat: 34.2938 # Momijidani Park, Miyajima
+    lon: 132.325
